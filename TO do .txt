@@ -1,0 +1,2 @@
+add logo image in menu.jsx
+change color from Themes.js
