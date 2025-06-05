@@ -1,70 +1,100 @@
-# Getting Started with Create React App
+# Podstream
+<div align='center'>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![GitHub issues](https://img.shields.io/github/issues/rishavchanda/Podstream)
+![GitHub forks](https://img.shields.io/github/forks/rishavchanda/Podstream)
+![GitHub starts](https://img.shields.io/github/stars/rishavchanda/Podstream)
+![GitHub license](https://img.shields.io/github/license/rishavchanda/Podstream)
+![Javascript](https://img.shields.io/badge/Javascript-Language-yellow)
+![HTML](https://img.shields.io/badge/HTML-Hypertext-red)
+![CSS](https://img.shields.io/badge/CSS-Styles-pink)
+![React](https://img.shields.io/badge/React-Components-orange)
 
-## Available Scripts
+</div>
 
-In the project directory, you can run:
+## Podcast Streaming Application
 
-### `npm start`
+### Deployed Link : [View Webapp](https://podstream.netlify.app/)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### This is a web application for streaming podcasts with the following features:
+- User authentication
+- Podcast search functionality
+- Popular podcasts displayed on the main dashboard
+- Admin panel for creating and adding new podcasts
+- Favourite Podcasts
+- Pause podcasts and come back play at same time
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Getting Started
+To use the application, simply create an account and log in. From there, you can search for podcasts, view popular podcasts on the main dashboard, and listen to podcasts.
 
-### `npm test`
+Admin users can access the admin panel to create and add new podcasts, which will be displayed on the main dashboard.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Technologies Used
+The application is built using the following technologies:
 
-### `npm run build`
+- React Js
+- Node Js
+- Mongo Db
+- Google Auth
+- Firebase
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Steps to start the app
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Start the react app
+Go to client folder
+```
+cd client
+```
+Install the node modules
+```
+npm install
+```
+Start the react app
+```
+npm start
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Start the backend server
+Open a new terminal
+Go to server folder
+```
+cd server
+```
+Install the node modules
+```
+npm start
+```
+Start the server
+```
+npm start
+```
+### Here is live demo of our web app:
 
-### `npm run eject`
+[Screencast from 27-04-23 07:21:38 PM IST.webm](https://user-images.githubusercontent.com/64485885/234887002-60554cc9-c298-42bd-a310-42334f8717a8.webm)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Here are some pictures of the web application:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+![image](https://user-images.githubusercontent.com/100614635/233979351-604732a6-eb97-4124-a4b9-9a07a22f7f9d.png)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+![image](https://user-images.githubusercontent.com/64485885/234602896-a1bd8bcc-b72b-4821-83d6-8ad885bf435e.png)
 
-## Learn More
+![image](https://user-images.githubusercontent.com/100614635/233979651-69b5dc7f-7c47-404b-9211-dd2a3140bcaa.png)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+![image](https://user-images.githubusercontent.com/100614635/233979805-0d1c2381-afb9-4f24-b935-7cef18ccc57f.png)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+![image](https://user-images.githubusercontent.com/100614635/233980092-bb4748fd-4199-4d5c-a676-f340ed71c699.png)
 
-### Code Splitting
+![image](https://user-images.githubusercontent.com/100614635/233980287-a0bdf848-7a63-48d3-9f1c-7e7cac717e4c.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+![image](https://user-images.githubusercontent.com/100614635/233980638-36af0f43-6f38-410c-840a-c3d5ba1ccaee.png)
 
-### Analyzing the Bundle Size
+![image](https://user-images.githubusercontent.com/64485885/234604188-a0ba3e8a-a8fe-4465-afa6-17c34e46848c.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+![image](https://user-images.githubusercontent.com/100614635/233981364-5124943f-9016-43a5-aa42-3eee4b231430.png)
 
-### Making a Progressive Web App
+![image](https://user-images.githubusercontent.com/100614635/233981534-65a6ebb2-3963-4130-8704-db39695f9ac9.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Conclusion
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+In conclusion, this podcast streaming application provides users with an easy-to-use platform for listening to their favorite podcasts. With features such as user authentication, podcast search, and an admin panel for creating and adding new podcasts, this application offers a comprehensive solution for podcast streaming. 

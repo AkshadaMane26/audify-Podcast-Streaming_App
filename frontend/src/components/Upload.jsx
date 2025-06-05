@@ -8,7 +8,7 @@ import {
     uploadBytesResumable,
     getDownloadURL,
 } from "firebase/storage";
-import app from "../firebase";
+import { app } from "../firebase"; // ✅ correct
 import ImageSelector from "./ImageSelector";
 import { useDispatch } from "react-redux";
 import { openSnackbar } from "../redux/snackbarSlice";

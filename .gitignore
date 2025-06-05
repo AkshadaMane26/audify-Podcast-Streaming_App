@@ -1,27 +1,36 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+# === Dependencies ===
+backend/node_modules/
+frontend/node_modules/
 
-# dependencies
-server/node_modules
-client/node_modules
-client/.env
-server/.env
-/.pnp
-.pnp.js
-
-# testing
-/coverage
-
-# production
-/build
-
-# misc
+# === Env Files ===
+frontend/.env
+backend/.env
 .env
-.DS_Store
 .env.local
 .env.development.local
 .env.test.local
 .env.production.local
 
+# === Build ===
+frontend/build/
+backend/build/
+
+# === Testing ===
+frontend/coverage/
+backend/coverage/
+
+# === Logs ===
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# === Misc ===
+.DS_Store
+.pnp.js
+/.pnp
+
+# === IDE/Editor folders ===
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project

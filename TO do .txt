@@ -1,2 +1,11 @@
 add logo image in menu.jsx
 change color from Themes.js
+deploy backend and update api/index.js
+update redux folder if needed userSlice.jsx
+update firebase.js
+update index.js
+if necessary check package-lock.json
+update README.md
+update backend .env file
+create app password 
+update frontend .env
